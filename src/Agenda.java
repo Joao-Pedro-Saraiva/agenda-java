@@ -9,10 +9,6 @@ public class Agenda {
     private Scanner input = new Scanner(System.in);
 
     public void adicionarContato(String nome, String numero){
-        /*System.out.println("Novo Contato\n Nome: ");
-        String nome = input.nextLine();
-        System.out.println("Numero: ");
-        String numero = input.nextLine(); */
         Contato novoContato = new Contato(nome, numero);
         contatos.add(novoContato);
     }
